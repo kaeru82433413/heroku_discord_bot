@@ -1,6 +1,6 @@
 
 herokuでRust・serenityのdiscordbotを動かせることを確認するためのプロジェクトです<br>
-herokuのBuildpacksにhttps://github.com/emk/heroku-buildpack-rust.gitを追加してあります<br>
+herokuのBuildpacksにhttps://github.com/emk/heroku-buildpack-rust.git を追加してあります<br>
 cf. https://blog.ichyo.jp/posts/deploying-rust-applications-to-heroku/<br>
 
 ## 機能
