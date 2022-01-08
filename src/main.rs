@@ -21,8 +21,7 @@ impl EventHandler for Handler {
 async fn main() {
     let token = env::var("discord_bot_token").unwrap();
     
-    let mut client = 
-        Client::builder(&token).event_handler(Handler).await.unwrap();
+    let mut client = Client::builder(&token).event_handler(Handler).await.unwrap();
     
     client.start().await.unwrap();
 }
